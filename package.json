@@ -1,5 +1,5 @@
 {
-  "name": "version-it",
+  "name": "@jody-zeitler/version-it",
   "version": "1.0.0",
   "description": "Query NPM for the latest version of this package at the current minor version. Return the full version string with an incremented or zeroed patch version.",
   "repository": {

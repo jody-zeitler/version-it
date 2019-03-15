@@ -11,7 +11,7 @@ Set the patch version to the next available value.
 ```json
 {
   "devDependencies": {
-    "version-it": "^1.0.0"
+    "@jody-zeitler/version-it": "^1.0.0"
   },
   "scripts": {
     "bump": "version-it"
@@ -33,7 +33,7 @@ v1.0.1
 ##### publish script
 
 ```shell
-$ npm install -g version-it
+$ npm install -g @jody-zeitler/version-it
 $ version-it && npm publish
 incrementing version
 v1.0.2
