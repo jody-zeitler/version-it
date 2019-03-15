@@ -1,0 +1,22 @@
+{
+  "name": "version-it",
+  "version": "1.0.0",
+  "description": "Query NPM for the latest version of this package at the current minor version. Return the full version string with an incremented or zeroed patch version.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jody-zeitler/version-it.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "bin": "./bin/version-it",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Jody Zeitler <jody.zeitler@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^5.3.0"
+  }
+}
